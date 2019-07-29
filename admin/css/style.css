@@ -1,0 +1,635 @@
+/* body{padding-top: 50px} */
+
+/* ///////// top navbar items /////  */
+
+.navbar {
+  height: 70px !important;  
+  background: rgb(206, 254, 167);
+  border-top: 10px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+  border-image: url('../../img/nice_backgrounds/newlittlesweets.jpg') 100 stretch;
+  }
+
+  
+  #home_link{
+    position: absolute;
+    float: left !important;
+    max-width: 260px !important;
+    max-height: 100px !important;
+    margin-top: -45px;
+    margin-left: -10px;
+  }
+
+  #collapsibleNavId{
+    position: absolute;
+    margin-left: 250px;
+  }
+
+
+/* nav bar menu button */
+.navbar-toggler {
+  position: absolute;
+  float: right;
+  padding: 9px 10px;
+  display: block;
+  margin-left: 75% !important;
+  margin-bottom: 8px;
+  background-color: rgba(255, 81, 0, 0.979) !important; 
+  background-image: none;
+  border: 2px solid black !important;
+  border-radius: 4px;
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler:hover{
+  background-color: rgb(139, 55, 6) !important; 
+  color: rgba(63, 55, 55, 0.979) !important; 
+}
+
+@supports (-moz-appearance:none) {
+  .navbar-toggler {
+    position: absolute;
+    float: right;
+    padding: 9px 10px;
+    display: block;
+    margin-left: 75% !important;
+    margin-bottom: 0px;
+    background-color: rgba(63, 55, 55, 0.979) !important; 
+    background-image: none;
+    border: 2px solid black !important;
+    border-radius: 4px;
+    color: rgb(243, 245, 117) !important;
+  }
+
+}
+
+/* nav menu  */
+
+
+/* nav menu links and nav bar link .. same thing */
+
+
+a.nav-link{
+  color: black !important;
+}
+
+a.nav-link:hover{
+  color: rgb(255, 94, 0) !important;
+}
+
+a.nav-link.active{
+  color:  rgba(219, 107, 2, 0.979) !important; 
+  
+}
+
+
+@media only screen and (max-width: 773px) {
+.nav-link{
+  font-size: .8em;
+}
+
+}
+
+@media only screen and (max-width: 610px) {
+
+  .nav-link{
+    font-size: .65em;
+  }
+}
+
+  @media only screen and (max-width: 575px) {
+  
+    #collapsibleNavId{
+    border-radius: 10px !important;
+    border: 5px solid black !important;
+    background: rgba(219, 107, 2, 0.979) !important; 
+    margin-right: 65% !important;
+    margin-left: 0 !important; 
+    padding-right: 40px !important;
+    margin-top: 180px;
+    position: fixed;
+    z-index: 1;
+    }
+  
+    .dropdown-item:first-child:hover{
+     color: white !important; 
+    }
+    .dropdown-item:last-child:hover{
+      color: white !important; 
+     }
+
+
+    a.nav-link{
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+      font-size: 15px !important;
+    }
+
+    a.nav-link:hover{
+     color:white !important;
+    }
+  
+      a.nav-link.active{
+        color: rgb(227, 224, 230) !important;
+        background: rgb(0, 0, 0) !important;
+        width: 120%;
+        margin-right: 20% !important;
+        margin-left: 0 !important; 
+        
+       
+      }
+
+      .dropdown-menu {
+        background-color: transparent !important;
+        font-size: 1rem !important; 
+        min-width: 5rem; 
+        padding-right: 15px;
+      }
+     
+
+      .dropdown-item {
+        font-size: 0.8em !important;
+        white-space: normal !important;
+        padding: .25rem .3rem !important;
+      }
+
+      .dropdown-item:hover {
+     background: transparent !important;
+     color: white !important;
+      }
+
+      .dropdown-item.active {
+        background: black !important;
+       
+         }
+
+
+
+  }
+
+  .dropdown-item:hover {
+ background: transparent !important;
+ color: rgb(255, 94, 0) !important;
+  }
+
+  .dropdown-item.active {
+    background: black !important;
+    color: rgb(255, 94, 0) !important;
+    }
+
+
+
+/* ///////// top navbar items end/////  */
+
+
+#logo_text{
+position: relative;
+text-align: center;
+}
+
+#thatsme_logo{
+  height: 250px;
+  margin-top: 37px;
+  margin-bottom: 5px;
+  padding-bottom: 10px; 
+
+}
+
+
+footer{
+  
+  margin-bottom: 10px;
+  height: 70px !important; 
+   background: rgb(206, 254, 167); 
+   border-top: 10px solid transparent !important;
+   border-bottom: 10px solid transparent !important;
+   border-image: url('../../img/nice_backgrounds/newlittlesweets.jpg') 100 stretch;
+   
+}
+
+
+#admin_footer{
+ 
+ background: rgb(255, 255, 255); 
+  
+}
+
+.footer_div{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+
+/* pagination settings */
+#pagination_div{
+text-align: center !important;
+margin-left: 38% !important;
+
+}
+
+.page_number{
+  color: black;
+  background:rgb(206, 254, 167) !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 1px solid black !important;
+  border-radius: 23px;
+}
+
+.page_number.active{
+  color:  rgba(252, 214, 178, 0.979) !important; 
+  background:rgb(58, 119, 7) !important;
+}
+
+.page_number:hover{
+  color:  rgba(253, 250, 246, 0.979) !important; 
+  background:rgb(38, 61, 19) !important;
+}
+
+.previous{
+  padding-right:5px;
+  color: black;
+}
+
+.next{
+  padding-left:5px;
+  color: black;
+}
+.next:hover{
+  color: rgb(255, 94, 0) !important;
+}
+
+.previous:hover{
+  color: rgb(255, 94, 0) !important;
+}
+/* pagination end */
+
+
+.admin_product_menu{
+  font-size: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black !important;
+  
+}
+
+.admin_product_menu:hover{
+  color:  rgba(219, 107, 2, 0.979) !important; 
+  text-decoration: none; 
+}
+
+.admin_product_menu.active{
+  color:  rgba(190, 92, 0, 0.979) !important; 
+}
+
+
+
+/* add product form stuff */
+#add_product_form_container{
+
+  border: 3px solid black;
+}
+
+#form_start{
+  margin-top: 10px;
+}
+
+.form_label{
+  float: left !important;
+}
+
+#stock_box_div{
+  float: left !important ;
+  margin-bottom: 150px;
+}
+
+#stock_box_div input{
+  width: 50px !important ;
+}
+
+
+
+.submit_btn_div{
+  display: block;
+  margin: auto;
+  text-align: left;
+  margin-top: 100px;
+  margin-left:  -50px;
+  position: absolute;
+  left: 100px;
+  
+}
+
+#add_product_btn {
+  position: absolute;
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid black !important;
+  background: rgb(255, 94, 0) !important;
+}
+
+#edit_pic_label1, #edit_pic_label2, #edit_pic_label3{
+  margin-top: -25px !important;
+}
+
+#edit_product_btn {
+  position: absolute;
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid black !important;
+  background: rgb(206, 254, 167) !important;
+  color: black !important;
+}
+  
+#add_product_btn:hover {
+  background: rgb(255, 153, 95) !important;
+}
+
+#edit_product_btn:hover {
+  background:rgb(193, 199, 189) !important;
+color: rgb(255, 94, 0) !important;
+}
+
+#our_price_input,#list_price_input{
+  width: 90%;
+  margin-left:40px; 
+}
+
+
+
+@media only screen and (min-width: 400px) {
+
+  .pound_sign{
+    position: absolute;
+    margin-left: -72%;
+    margin-top: 43px;
+  }
+  
+  .pound_sign1{
+    position: absolute;
+    margin-left: -72%;
+    margin-top: 43px;
+  }
+
+ 
+  #add_product_btn, #edit_product_btn {
+    position: absolute;
+    display: block;
+    margin-top: 50px !important;
+    border: 1px solid black !important;
+   
+  }
+
+ 
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .pound_sign{
+      position: absolute;
+      margin-left: -68%;
+      margin-top: 43px;
+    }
+    
+    .pound_sign1{
+      position: absolute;
+      margin-left: -68%;
+      margin-top: 43px;
+    }
+  
+    
+   
+    }
+
+    @media only screen and (min-width: 992px) {
+
+      .pound_sign{
+        position: absolute;
+        margin-left: -62%;
+        margin-top: 43px;
+      }
+      
+      .pound_sign1{
+        position: absolute;
+        margin-left: -62%;
+        margin-top: 43px;
+      }
+    
+      #add_product_btn,#edit_product_btn {
+        position: absolute;
+        display: block;
+        margin-top: 10px !important;
+        border: 1px solid black !important;
+        
+       
+      }
+
+
+      }
+
+
+.form-control.form_pic_input{
+padding: 0 !important;
+}
+/* POUND SIGN SETTINGS FOR JQUERY WHEN ALERT IS OPEN */
+.move_the_pound_sign_XL{
+  position: absolute;
+  margin-left: -67%;
+  margin-top: 43px;
+}
+
+.move_the_pound_sign1_XL{
+  position: absolute;
+  margin-left: -65%;
+  margin-top: 43px;
+}
+
+
+.move_the_pound_sign_LG{
+  position: absolute;
+  margin-left: -70%;
+  margin-top: 43px;
+}
+
+.move_the_pound_sign1_LG{
+  position: absolute;
+  margin-left: -68%;
+  margin-top: 43px;
+}
+
+
+.move_the_pound_sign_MD{
+  position: absolute;
+  margin-left: -77%;
+  margin-top: 45px;
+}
+
+.move_the_pound_sign1_MD{
+  position: absolute;
+  margin-left: -74%;
+  margin-top: 40px;
+}
+
+.move_the_pound_sign_SM{
+  position: absolute;
+  margin-left: -84%;
+  margin-top: 43px;
+}
+
+.move_the_pound_sign1_SM{
+  position: absolute;
+  margin-left: -82%;
+  margin-top: 33px;
+}
+
+/* END POUND SIGN SETTINGS FOR JQUERY WHEN ALERT IS OPEN */
+
+#products_title{
+  color: black;
+}
+
+#products_title:hover{
+  color: rgb(255, 94, 0) !important;
+  text-decoration: none;
+}
+
+
+#admin_head{
+  margin-top: 15px;
+}
+
+#login_container{
+  padding-top: 25vh;
+}
+
+#login_head{
+  padding-top: 5%;
+}
+
+#login_div{
+border: 4px solid black;
+border-radius: 5px;
+box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.9);
+margin: 0px 0 30vh 0;
+background:rgb(206, 254, 167) !important;
+}
+
+#login_btn:hover{
+  color: rgb(255, 94, 0) !important;
+}
+#email_group{
+  padding-top: 20px !important;
+}
+
+
+#forgot_password_link{
+  float: right;
+  color: black;
+}
+
+#forgot_password_link:hover{
+  color: rgb(255, 94, 0) !important;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 575px) {
+#login_div{
+width: 90vw;
+margin-left: 4%; }
+}
+
+
+/* order page pagination */
+/* pagination settings */
+#order_pagination_div{
+  text-align: center !important;
+  margin-left: 37% !important;
+  
+  }
+
+.pag_month_link{
+  margin-left: 5px; 
+  color: black;
+}
+.pag_month_link.active{
+  color: rgb(255, 94, 0) !important;
+}
+
+.pag_month_link:hover{
+text-decoration: none;
+color: rgb(255, 94, 0) !important;
+}
+
+#previous_month_pag{
+  color: black !important;
+  margin-right: 20px;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 7px;
+ }
+
+
+#next_month_pag{
+  color: black !important;
+  margin-right: 20px;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#next_li{
+  margin-left: 25px !important;
+}
+
+
+#next_month_pag:hover{
+  text-decoration: none;
+  color: rgb(255, 94, 0) !important;
+}
+  #previous_month_pag:hover{
+    text-decoration: none;
+    color: rgb(255, 94, 0) !important;
+  }
+
+
+  .order_title{
+    text-decoration: underline;
+  }
+  
+.month_order_list{
+  list-style: none;
+}
+
+.month{
+  color: black;
+}
+
+  .month.active{
+    color: rgb(255, 94, 0) !important;
+  }
+
+  .order_pagination_number{
+    margin-top: -15px;
+    margin-left:15px;
+    margin-right: 15px;
+    color: black;
+    font-size: 30px;
+  }
+
+.order_pagination_number:hover{
+color: rgb(3, 89, 248);
+text-decoration: none;
+}
+
+.order_pagination_number.active{
+  color: rgb(255, 94, 0) !important;
+  text-decoration: underline;
+
+  }
+  
+  #profile_pic{
+    border:1px solid black;
+    
+  }
